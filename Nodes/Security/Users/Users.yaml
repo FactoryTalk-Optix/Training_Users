@@ -1,0 +1,97 @@
+Name: Users
+Id: g=28fa632b2dd4c48ec853386dda4ef3cf
+Type: UsersCategoryFolder
+Children:
+- Name: user
+  Id: g=87922b99d64ea792bc81ffb53c28be03
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b78ccaa88a6c9afb90ec77f7c61aee61
+  - Name: Password
+    Id: g=f4c9ca2b9c935b33c17441af4cc3709b
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=9133b7359d4ffe5d9bd107d4d1068443
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [211,253,219,159,249,208,178,150,52,17,63,219,237,150,44,75,72,66,212,171,59,113,32,111,238,18,138,4,63,237,204,197],
+         "Salt": [152,217,33,88,202,100,108,2,178,71,173,59,229,91,98,40,17,77,119,220,230,207,119,152,30,178,148,38,151,101,135,71]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=ffe0bee474cec445e52eaaf7ef426b5e
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-11-24T13:08:30.9618013"
+    - Name: History
+      Id: g=e190cfabdde26bf86b000558d5594ee2
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+- Name: admin
+  Id: g=dbd8c4ea688941758095f273e6c8c0a1
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b78ccaa88a6c9afb90ec77f7c61aee61
+  - Class: Reference
+    Type: HasGroup
+    Target: g=c53d25f701734e78c8f9aa44dedce30f
+  - Name: Password
+    Id: g=2e15cf1426c7bf266f613e59fb924808
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=922f0e521841c2b08400460450958971
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [248,116,225,179,133,161,152,99,45,173,147,70,40,198,166,214,206,35,17,37,48,38,229,25,236,116,205,7,12,30,246,101],
+         "Salt": [91,216,223,91,147,228,50,40,121,115,118,217,67,1,63,194,205,6,12,81,219,1,139,47,183,87,27,123,120,96,236,97]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=ae38cf24876cd69a5043559acb5c24d6
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-11-24T13:08:34.6064880"
+    - Name: History
+      Id: g=d020373c60d9a9e22160e421eb08c4f1
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []

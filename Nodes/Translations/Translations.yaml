@@ -1,0 +1,19 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [4,3],
+    "Body": [
+     "","en-US","it-IT",
+     "LoginFormLoginSuccessful","Login successful","Login riuscito",
+     "LoginFormPasswordExpired","Password expired","Password scaduta",
+     "LoginFormAuthenticationFailed","Authentication failed","Autenticazione fallita"
+    ]
+   }
